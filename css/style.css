@@ -1,0 +1,245 @@
+/********* OVERRIDE STYLES ***********/
+html, body, form, input, textarea, select{
+	font-family: 'Karla', sans-serif;
+	line-height:1.5rem;
+}
+
+html,body{
+	text-align:center;
+}
+
+body{
+	background: url(images/coffee-beans-1223055.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h1, h2, h3, h4, h5{
+	margin:0;
+	padding:0;
+	margin-bottom:1rem;
+	font-weight:normal;
+	color:#202e4a;
+	font-size:1.5rem;
+	font-weight:bold;
+}
+
+h2 {font-size: 1.4rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 1.2rem;}
+h5 {font-size: 1.1rem;}
+
+p{
+	margin:0;
+	padding:0;
+	padding-bottom:1.5rem;
+}
+
+#container{
+	margin-bottom:-50px;
+	text-align:left;
+	max-width:980px;
+	background:#fff;
+}
+
+header{
+	background:none;
+	height:80px;
+	width:100%;
+	margin:0 auto;
+}
+
+#logo{
+	margin-top:20px;
+}
+
+a img{
+	border:none;
+}
+
+#nav-panel{
+	background:#5a311f;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}
+
+#nav-panel > .nav-menu {
+	text-align:left;
+	float:none;
+	max-width:1024px;
+	margin:0 auto;
+}
+
+#nav-panel ul li a:hover, #nav-panel ul li a.active,
+#nav-panel > ul > li.active > a{
+	transition: none;
+    background:none;
+	color:#fff;
+	background:#402113;
+}
+
+#nav-panel > .nav-menu > li{
+	height:auto;
+	padding:0px;
+}
+
+#nav-panel > .nav-menu > li > a {
+    padding: 10px 15px;
+    border-right: none;
+    border-bottom: none;
+    line-height: auto;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+#nav-panel > .nav-menu > li > a {
+	line-height:30px;
+}
+
+#nav-panel ul > li:hover > ul{
+	top:50px;
+}
+
+#menu-button:hover{
+	background:#28343a;
+}
+
+#menu-button::after,
+#menu-button.left-side::after {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+
+#menu-button::before,
+#menu-button.left-side::before {
+	border-top: 2px solid #000;
+}
+
+#menu-button:hover::after,
+#menu-button:hover.left-side::after {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+
+#menu-button:hover::before,
+#menu-button:hover.left-side::before {
+	border-top: 2px solid #fff;
+}
+
+#container-inside{
+	max-width:980px;
+	width:100%;
+	padding:20px 15px;
+	margin:0 auto;
+}
+
+.row .column:last-child, .column:last-child{
+	margin-left:0;
+	float:right;
+}
+
+/****** Testimonial ******/
+.italic{
+	font-style:italic;
+}
+
+.testimonial-name{
+	font-weight:bold;
+	font-size:1rem;
+}
+
+.liner{
+	border-bottom:solid 1px #ebecec;
+	margin:0 0 20px 0;
+}
+/****** End Testimonial ******/
+
+/****** News/Article ******/
+.link-more{
+	text-align:right;
+}
+
+.link-more > a{
+	color:#5750e4;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.link-more > a:hover{
+	color:#385579;
+}
+/****** End News/Article ******/
+
+/****** Contact form ******/
+.contact-form{
+	border:solid 1px #ccc;
+	padding:20px;
+	border-radius:5px;
+}
+/****** End Contact form ******/
+
+#clear-footer{
+	height:50px;
+	clear:both;
+}
+
+footer{
+	background:#5a311f;
+	height:50px;
+	color:#fff;
+	text-align:center;
+	max-width:980px;
+	margin:0 auto;
+}
+
+footer a, footer a:hover, footer a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+
+#footer-text{
+	line-height:50px;
+	clear:both;
+	margin:0 auto;
+}
+
+@media (max-width: 767px) {
+	#nav-panel > .nav-menu {
+		text-align:left;
+		max-width:auto;
+		margin:0;
+	}
+	
+	#nav-panel > .nav-menu  > li > a{
+		color:#fff;
+	}
+	
+	#nav-panel > .nav-menu  > li:nth-last-child(1),
+	#nav-panel > .nav-menu  > li:nth-last-child(2){
+		float:none;
+	}
+	
+	header{
+		
+	}
+	
+	#logo{
+		margin:0;
+		padding-top:20px;
+		border-radius:0;
+	}
+	
+	.link-more{
+		text-align:left;
+	}
+}
+
+
+
+
